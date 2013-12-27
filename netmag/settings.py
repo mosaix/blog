@@ -66,7 +66,10 @@ DATABASES = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
+TEMPLATE_DIRS = (
 
+    'D:/-=DEVs=-/Django/netmag/templates'
+)
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -82,3 +85,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+
+    'D:/-=DEVs=-/Django/netmag/netmag/static/',
+
+)
